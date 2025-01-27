@@ -1,0 +1,19 @@
+/* Styles for the container of the input field */
+.input-container {
+    margin-bottom: 15px; /* Adds space below the input container */
+}
+
+/* Styles for the input field */
+.text-input {
+    width: 100%; /* Makes the input field take up the full width of its container */
+    padding: 8px; /* Adds padding inside the input field */
+    font-size: 16px; /* Sets the font size of the input text */
+    border: 1px solid #ccc; /* Adds a light gray border around the input field */
+    border-radius: 4px; /* Rounds the corners of the input field */
+}
+
+/* Styles for the input field when it is focused */
+.text-input:focus {
+    border-color: #007bff; /* Changes the border color to blue when the input field is focused */
+    outline: none; /* Removes the default outline when the input field is focused */
+}
