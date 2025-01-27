@@ -1,0 +1,23 @@
+/* Base styles for the icon button */
+.icon-btn {
+    background: transparent; /* Transparent background */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 20px; /* Font size of the icon */
+    padding: 8px; /* Padding inside the button */
+    border-radius: 50%; /* Make the button circular */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background color */
+}
+
+/* Styles for the icon button on hover */
+.icon-btn:hover {
+    color: blue; /* Change icon color on hover */
+    background-color: rgba(0, 0, 255, 0.1); /* Light blue background on hover */
+}
+
+/* Styles for the icon button when disabled */
+.icon-btn:disabled {
+    color: gray; /* Gray color when disabled */
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+    opacity: 0.6; /* Reduce opacity when disabled */
+}
