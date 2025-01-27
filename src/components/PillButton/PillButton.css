@@ -1,0 +1,30 @@
+/* Base styles for the pill button */
+.pill-btn {
+    background-color: #007bff; /* Primary blue background color */
+    color: white; /* White text color */
+    padding: 10px 25px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Fully rounded corners to create a pill shape */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size of the button text */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition for background color and opacity */
+}
+
+/* Styles for the pill button on hover */
+.pill-btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+
+/* Styles for the pill button when it is disabled */
+.pill-btn:disabled {
+    background-color: #cccccc; /* Gray background when disabled */
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+    opacity: 0.6; /* Reduce opacity when disabled */
+}
+
+/* Styles for the pill button when it is focused */
+.pill-btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Add a custom focus outline */
+}
