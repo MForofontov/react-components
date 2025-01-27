@@ -11,8 +11,8 @@
 
 /* Styles for the icon button on hover */
 .icon-btn:hover {
-    color: blue; /* Change icon color on hover */
-    background-color: rgba(0, 0, 255, 0.1); /* Light blue background on hover */
+    filter: brightness(1.5); /* Make icon brighter on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
 }
 
 /* Styles for the icon button when disabled */

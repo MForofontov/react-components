@@ -1,0 +1,32 @@
+/* Base styles for the toggle button */
+.toggle-btn {
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size of the button text */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition for background color and opacity */
+}
+
+/* Styles for the toggle button when it is in the "on" state */
+.toggle-btn.on {
+    background-color: green; /* Green background when toggled on */
+    color: white; /* White text color */
+}
+
+/* Styles for the toggle button when it is in the "off" state */
+.toggle-btn.off {
+    background-color: red; /* Red background when toggled off */
+    color: white; /* White text color */
+}
+
+/* Styles for the toggle button on hover */
+.toggle-btn:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+/* Styles for the toggle button when it is focused */
+.toggle-btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Add a custom focus outline */
+}
