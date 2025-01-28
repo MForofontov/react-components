@@ -1,0 +1,29 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the range input label */
+.range-label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for the range input field */
+.range-input {
+    width: 100%; /* Makes the range input field take up the full width of its container */
+    margin: 10px 0; /* Adds space above and below the range input field */
+}
+
+/* Styles for the range value display */
+.range-value {
+    font-size: 14px; /* Sets the font size of the range value text */
+    color: #333; /* Sets the color of the range value text */
+}
+
+/* Styles for the range input field when it is disabled */
+.range-input:disabled {
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+    opacity: 0.6; /* Reduce opacity when disabled */
+}
