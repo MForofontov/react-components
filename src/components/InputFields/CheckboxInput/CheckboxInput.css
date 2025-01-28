@@ -1,0 +1,23 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the checkbox label */
+.checkbox-label {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    font-size: 16px; /* Sets the font size of the label text */
+}
+
+/* Styles for the checkbox input */
+.checkbox-input {
+    margin-right: 10px; /* Adds space to the right of the checkbox */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for the checkbox input when it is disabled */
+.checkbox-input:disabled {
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+    opacity: 0.6; /* Reduce opacity when disabled */
+}

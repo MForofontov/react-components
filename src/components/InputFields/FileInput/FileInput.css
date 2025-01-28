@@ -1,0 +1,34 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the file input label */
+.file-label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for the file input field */
+.file-input {
+    width: 100%; /* Makes the file input field take up the full width of its container */
+    padding: 8px; /* Adds padding inside the file input field */
+    font-size: 16px; /* Sets the font size of the file input text */
+    border: 1px solid #ccc; /* Adds a light gray border around the file input field */
+    border-radius: 4px; /* Rounds the corners of the file input field */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Styles for the file input field when it is focused */
+.file-input:focus {
+    border-color: #007bff; /* Changes the border color to blue when the file input field is focused */
+    outline: none; /* Removes the default outline when the file input field is focused */
+}
+
+/* Styles for the file input field when it is disabled */
+.file-input:disabled {
+    background-color: #f5f5f5; /* Light gray background when disabled */
+    cursor: not-allowed; /* Change cursor to not-allowed when disabled */
+    opacity: 0.6; /* Reduce opacity when disabled */
+}

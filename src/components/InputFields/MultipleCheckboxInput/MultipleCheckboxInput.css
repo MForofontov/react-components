@@ -1,0 +1,22 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the checkbox group label */
+.checkbox-group-label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for each checkbox option */
+.checkbox-option {
+    margin-bottom: 5px; /* Adds space below each checkbox option */
+}
+
+/* Styles for the checkbox input */
+.checkbox-input {
+    margin-right: 10px; /* Adds space to the right of the checkbox */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
