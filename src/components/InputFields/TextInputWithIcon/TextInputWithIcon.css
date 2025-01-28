@@ -1,0 +1,40 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the input label */
+.input-label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for the container of the input with icon */
+.input-with-icon {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    border: 1px solid #ccc; /* Adds a light gray border around the input field */
+    border-radius: 4px; /* Rounds the corners of the input field */
+    padding: 8px; /* Adds padding inside the input field */
+}
+
+/* Styles for the icon */
+.icon {
+    margin-right: 8px; /* Adds space to the right of the icon */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the text input field */
+.text-input {
+    width: 100%; /* Makes the text input field take up the full width of its container */
+    border: none; /* Removes the default border */
+    outline: none; /* Removes the default outline */
+    font-size: 16px; /* Sets the font size of the text input */
+}
+
+/* Styles for the text input field when it is focused */
+.text-input:focus {
+    border-color: #007bff; /* Changes the border color to blue when the text input field is focused */
+}
