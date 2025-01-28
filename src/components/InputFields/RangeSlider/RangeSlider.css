@@ -1,0 +1,23 @@
+/* Styles for the container of the input field */
+.input-field {
+    margin-bottom: 15px; /* Adds space below the input field */
+}
+
+/* Styles for the range slider label */
+.range-slider-label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for the range slider input field */
+.range-slider-input {
+    width: 100%; /* Makes the range slider input field take up the full width of its container */
+    margin: 10px 0; /* Adds space above and below the range slider input field */
+}
+
+/* Styles for the range slider value display */
+.range-slider-value {
+    font-size: 14px; /* Sets the font size of the range slider value text */
+    color: #333; /* Sets the color of the range slider value text */
+}
