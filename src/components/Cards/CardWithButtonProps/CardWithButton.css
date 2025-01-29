@@ -1,0 +1,27 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+}
+
+/* Styles for the card with button */
+.card-with-button {
+    /* Additional styles specific to the card with button can be added here */
+}
+
+/* Styles for the card title */
+.card-title {
+    font-size: 24px; /* Sets the font size of the card title */
+    margin-bottom: 8px; /* Adds space below the card title */
+}
+
+/* Styles for the card content */
+.card-content {
+    font-size: 16px; /* Sets the font size of the card content */
+    color: #333; /* Sets the color of the card content text */
+    margin-bottom: 16px; /* Adds space below the card content */
+}

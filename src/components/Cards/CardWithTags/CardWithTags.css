@@ -1,0 +1,44 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+}
+
+/* Styles for the card with tags */
+.card-with-tags {
+    /* Additional styles specific to the card with tags can be added here */
+}
+
+/* Styles for the card title */
+.card-title {
+    font-size: 24px; /* Sets the font size of the card title */
+    margin-bottom: 8px; /* Adds space below the card title */
+}
+
+/* Styles for the card content */
+.card-content {
+    font-size: 16px; /* Sets the font size of the card content */
+    color: #333; /* Sets the color of the card content text */
+    margin-bottom: 16px; /* Adds space below the card content */
+}
+
+/* Styles for the tags container */
+.tags {
+    display: flex; /* Use flexbox to align items */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+}
+
+/* Styles for each tag */
+.tag {
+    background-color: #007bff; /* Sets the background color of the tag */
+    color: #fff; /* Sets the text color of the tag */
+    padding: 5px 10px; /* Adds padding inside the tag */
+    border-radius: 4px; /* Rounds the corners of the tag */
+    margin-right: 8px; /* Adds space to the right of each tag */
+    margin-bottom: 8px; /* Adds space below each tag */
+    font-size: 14px; /* Sets the font size of the tag text */
+}

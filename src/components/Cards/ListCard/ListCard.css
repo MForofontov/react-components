@@ -1,0 +1,40 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+}
+
+/* Styles for the list card */
+.list-card {
+    /* Additional styles specific to the list card can be added here */
+}
+
+/* Styles for the card title */
+.card-title {
+    font-size: 24px; /* Sets the font size of the card title */
+    margin-bottom: 8px; /* Adds space below the card title */
+}
+
+/* Styles for the card list */
+.card-list {
+    list-style-type: none; /* Removes the default list style */
+    padding: 0; /* Removes the default padding */
+    margin: 0; /* Removes the default margin */
+}
+
+/* Styles for each card list item */
+.card-list-item {
+    font-size: 16px; /* Sets the font size of the list item */
+    color: #333; /* Sets the color of the list item text */
+    padding: 8px 0; /* Adds padding above and below each list item */
+    border-bottom: 1px solid #eee; /* Adds a light gray border below each list item */
+}
+
+/* Removes the border from the last list item */
+.card-list-item:last-child {
+    border-bottom: none;
+}

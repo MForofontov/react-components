@@ -1,0 +1,35 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+}
+
+/* Styles for the profile card */
+.profile-card {
+    text-align: center; /* Centers the text inside the profile card */
+}
+
+/* Styles for the profile image */
+.profile-image {
+    width: 100px; /* Sets the width of the profile image */
+    height: 100px; /* Sets the height of the profile image */
+    border-radius: 50%; /* Makes the profile image circular */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    margin-bottom: 16px; /* Adds space below the profile image */
+}
+
+/* Styles for the profile name */
+.profile-name {
+    font-size: 24px; /* Sets the font size of the profile name */
+    margin-bottom: 8px; /* Adds space below the profile name */
+}
+
+/* Styles for the profile description */
+.profile-description {
+    font-size: 16px; /* Sets the font size of the profile description */
+    color: #333; /* Sets the color of the profile description text */
+}

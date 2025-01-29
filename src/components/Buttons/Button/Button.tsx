@@ -1,18 +1,18 @@
 import React from 'react';
-import './PrimaryButton.css';
+import './Button.css';
 
-// Define the props for the PrimaryButton component
-interface PrimaryButtonProps {
+// Define the props for the Button component
+interface ButtonProps {
   label: string; // The text to display on the button
   onClick: () => void; // The function to call when the button is clicked
   disabled?: boolean; // Optional prop to disable the button
 }
 
 // PrimaryButton functional component
-const PrimaryButton: React.FC<PrimaryButtonProps> = ({ label, onClick, disabled = false }) => (
-  <button className="primary-btn" onClick={onClick} disabled={disabled}>
+const Button: React.FC<ButtonProps> = ({ label, onClick, disabled = false }) => (
+  <button className="btn" onClick={onClick} disabled={disabled}>
     {label}
   </button>
 );
 
-export default PrimaryButton;
+export default Button;

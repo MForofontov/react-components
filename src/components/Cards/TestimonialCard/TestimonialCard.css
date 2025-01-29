@@ -1,0 +1,34 @@
+/* Styles for the testimonial card container */
+.testimonial-card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+    text-align: center; /* Centers the text inside the card */
+}
+
+/* Styles for the avatar image */
+.avatar {
+    width: 80px; /* Sets the width of the avatar image */
+    height: 80px; /* Sets the height of the avatar image */
+    border-radius: 50%; /* Makes the avatar image circular */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    margin-bottom: 16px; /* Adds space below the avatar image */
+}
+
+/* Styles for the testimonial message */
+.message {
+    font-size: 16px; /* Sets the font size of the testimonial message */
+    color: #333; /* Sets the color of the testimonial message text */
+    margin-bottom: 16px; /* Adds space below the testimonial message */
+    font-style: italic; /* Makes the testimonial message italic */
+}
+
+/* Styles for the name */
+.name {
+    font-size: 18px; /* Sets the font size of the name */
+    color: #007bff; /* Sets the color of the name text */
+    font-weight: bold; /* Makes the name text bold */
+}

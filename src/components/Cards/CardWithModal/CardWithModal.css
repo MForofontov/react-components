@@ -1,0 +1,82 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+    text-align: center; /* Centers the text inside the card */
+}
+
+/* Styles for the card with modal */
+.card-with-modal {
+    /* Additional styles specific to the card with modal can be added here */
+}
+
+/* Styles for the card title */
+.card-title {
+    font-size: 24px; /* Sets the font size of the card title */
+    margin-bottom: 8px; /* Adds space below the card title */
+}
+
+/* Styles for the card content */
+.card-content {
+    font-size: 16px; /* Sets the font size of the card content */
+    color: #333; /* Sets the color of the card content text */
+    margin-bottom: 16px; /* Adds space below the card content */
+}
+
+/* Styles for the view more button */
+.view-more-button {
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Sets the font size of the button text */
+    color: #fff; /* Sets the text color of the button */
+    background-color: #007bff; /* Sets the background color of the button */
+    border: none; /* Removes the default border */
+    border-radius: 4px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Styles for the view more button on hover */
+.view-more-button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Styles for the modal */
+.modal {
+    display: flex; /* Use flexbox to center the modal */
+    justify-content: center; /* Center the modal horizontally */
+    align-items: center; /* Center the modal vertically */
+    position: fixed; /* Fix the modal position */
+    top: 0; /* Position the modal at the top */
+    left: 0; /* Position the modal at the left */
+    width: 100%; /* Make the modal take up the full width */
+    height: 100%; /* Make the modal take up the full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+}
+
+/* Styles for the modal content */
+.modal-content {
+    background-color: #fff; /* Set the background color of the modal content to white */
+    padding: 20px; /* Add padding inside the modal content */
+    border-radius: 8px; /* Round the corners of the modal content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the modal content */
+    text-align: center; /* Center the text inside the modal content */
+}
+
+/* Styles for the modal title */
+.modal-title {
+    font-size: 24px; /* Set the font size of the modal title */
+    margin-bottom: 16px; /* Add space below the modal title */
+}
+
+/* Styles for the modal close button */
+.close {
+    position: absolute; /* Position the close button absolutely */
+    top: 10px; /* Position the close button 10px from the top */
+    right: 10px; /* Position the close button 10px from the right */
+    font-size: 24px; /* Set the font size of the close button */
+    cursor: pointer; /* Change the cursor to pointer on hover */
+}
