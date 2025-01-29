@@ -1,5 +1,5 @@
 /* Base styles for the primary button */
-.primary-btn {
+.btn {
     background-color: blue; /* Background color of the button */
     color: white; /* Text color of the button */
     padding: 10px 20px; /* Padding inside the button */
@@ -11,12 +11,12 @@
 }
 
 /* Styles for the primary button on hover */
-.primary-btn:hover {
+.btn:hover {
     background-color: darkblue; /* Darker background color on hover */
 }
 
 /* Styles for the primary button when disabled */
-.primary-btn:disabled {
+.btn:disabled {
     background-color: lightgray; /* Light gray background when disabled */
     cursor: not-allowed; /* Change cursor to not-allowed when disabled */
     opacity: 0.6; /* Reduce opacity when disabled */
