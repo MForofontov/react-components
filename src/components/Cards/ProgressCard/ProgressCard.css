@@ -1,0 +1,44 @@
+/* Styles for the card container */
+.card {
+    border: 1px solid #ccc; /* Adds a light gray border around the card */
+    border-radius: 8px; /* Rounds the corners of the card */
+    padding: 16px; /* Adds padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    margin-bottom: 16px; /* Adds space below the card */
+    text-align: center; /* Centers the text inside the card */
+}
+
+/* Styles for the progress card */
+.progress-card {
+    /* Additional styles specific to the progress card can be added here */
+}
+
+/* Styles for the card title */
+.card-title {
+    font-size: 24px; /* Sets the font size of the card title */
+    margin-bottom: 8px; /* Adds space below the card title */
+}
+
+/* Styles for the progress bar container */
+.progress-bar {
+    width: 100%; /* Makes the progress bar take up the full width of its container */
+    background-color: #f3f3f3; /* Sets the background color of the progress bar container */
+    border-radius: 8px; /* Rounds the corners of the progress bar container */
+    overflow: hidden; /* Ensures the progress bar stays within the container */
+    margin-bottom: 8px; /* Adds space below the progress bar */
+}
+
+/* Styles for the progress bar */
+.progress {
+    height: 20px; /* Sets the height of the progress bar */
+    background-color: #007bff; /* Sets the background color of the progress bar */
+    border-radius: 8px 0 0 8px; /* Rounds the left corners of the progress bar */
+    transition: width 0.3s ease; /* Smooth transition for the width */
+}
+
+/* Styles for the progress text */
+.progress-text {
+    font-size: 16px; /* Sets the font size of the progress text */
+    color: #333; /* Sets the color of the progress text */
+}
