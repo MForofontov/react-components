@@ -1,0 +1,44 @@
+/* Styles for the flipping card container */
+.flipping-card {
+    width: 200px; /* Sets the width of the card */
+    height: 300px; /* Sets the height of the card */
+    perspective: 1000px; /* Adds perspective to create a 3D effect */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+/* Styles for the card front and back */
+.flipping-card > div {
+    width: 100%; /* Makes the front and back take up the full width */
+    height: 100%; /* Makes the front and back take up the full height */
+    position: absolute; /* Positions the front and back absolutely */
+    backface-visibility: hidden; /* Hides the back face when not visible */
+    border-radius: 8px; /* Rounds the corners of the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the card */
+    display: flex; /* Uses flexbox to align items */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    font-size: 20px; /* Sets the font size of the content */
+    padding: 16px; /* Adds padding inside the card */
+    background-color: #fff; /* Sets the background color of the card to white */
+    transition: transform 0.6s; /* Smooth transition for the transform property */
+}
+
+/* Styles for the card front */
+.card-front {
+    z-index: 2; /* Places the front above the back */
+    transform: rotateY(0deg); /* Keeps the front facing forward */
+}
+
+/* Styles for the card back */
+.card-back {
+    transform: rotateY(180deg); /* Rotates the back to face backward */
+}
+
+/* Styles for the flipped state */
+.flipped .card-front {
+    transform: rotateY(180deg); /* Rotates the front to face backward */
+}
+
+.flipped .card-back {
+    transform: rotateY(0deg); /* Rotates the back to face forward */
+}
